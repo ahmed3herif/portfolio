@@ -1,0 +1,224 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            width: 100%;;
+            background-color: royalblue;
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+        }
+        .one{
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            font-size: 30px;
+            padding: 5px;
+            font-weight: 700;
+        }
+        header ul a li{
+            color: white;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .div1 h1{
+            color: white;
+        }
+        span{
+            display: inline-block;
+            color: royalblue;
+            font-size: 40px;
+            margin-top: 10px;
+            font-weight: 800;
+        }
+        .two{
+            text-decoration: none;
+            background-color: royalblue;
+            color: white;
+            width: 180px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px 25px;
+            border-radius: 20px;
+            transition: 0.7s ease;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .two:hover{
+            background-color: blue;
+            transform: scale(1.1)
+        }
+        .section1{
+            align-items: center;
+            background-image:url(me5.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+        .div1{
+            margin-left: 200px;
+        }
+        .section1 details summary{
+            color: white;
+            margin-top: 5px;
+        }
+        .we{
+            color: white;
+        }
+        .icons a{
+            color: white;
+            font-size: 1.8em;
+            padding-right: 30px;
+        }
+.cards{
+    width: 100%;
+    height: 590px;
+}
+.title{
+    display: flex;
+    justify-content:center;
+    font-size: 4em;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 250px;
+    height: 330px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 10%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.7s ease;
+    line-height: 25px;
+}
+.card:hover{
+    transform: scale(1.1)
+}
+.icon a{
+    color: blue;
+    font-size: 8em;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: blue;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.info p{
+    font-size: 18px;
+}
+
+.projects{
+    background-color: black;
+    height: 890px;
+    width: 100%;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 350px;
+    height: 310px;
+    transition: 0.7s ease;
+    margin: 10px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img{
+    width: 100%;
+}
+.info2{
+    padding: 15px;
+}
+.info3{
+    font-size: 0.8em;
+    
+}
+.span{
+    font-size: 1em;
+    color: black;
+}
+.base{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+}
+
+
+.contact{
+    width: 100%;
+    height: 600px;
+}
+.contact .content{
+    margin-top: 100px;
+}
+.contact .content .card{
+    width: 450px;
+    height: 250px;
+}
+.contact .content .info{
+    margin-top: 20px;
+}
+.contact .content .info p{
+    font-size: 30px;
+}
+.contact .content .info h2{
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+footer p{
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.end{
+    font-size: 30px;
+}
+footer .icons{
+    margin-top: 30px;
+}
+
+
+
+
+
